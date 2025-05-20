@@ -1,6 +1,4 @@
-Trae
 
-26 context(s) used
 MPesa Acquisition Portal - README
 This README provides an overview of the MPesa Acquisition Portal project, including screenshots of key features and functionality.
 
@@ -113,5 +111,3 @@ Project Structure
 /src/lib - Utilities and hooks
 /src/provider - Context providers
 /src/validation - Form validation schemas
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
