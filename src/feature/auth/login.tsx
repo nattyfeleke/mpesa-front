@@ -76,14 +76,14 @@ const Login = () => {
           ))}
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-[800px mx-auto] w-full p-20">
-        <div className="flex flex-col gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1200px] mx-auto w-full p-20">
+        <div className="flex flex-col gap-1 items-start">
           <h2 className="font-bold text-gray-900 ">MPesa Acquisition Portal</h2>
           <p className="text-gray-800">
             Wwlcome to Mpesa world of convinience . The portal provides an{" "}
             efficient way to access and manage your Mpesa account.
           </p>
-          <div className="">
+          <div className="w-full">
             <Formik
               initialValues={initialValues}
               validationSchema={loginSchema}
@@ -91,7 +91,7 @@ const Login = () => {
             >
               {({ isSubmitting, errors, touched }) => (
                 <Form className="flex w-full flex-col items-center space-y-3 pb-4">
-                  <div className="w-full max-w-md">
+                  <div className="w-full ">
                     <label
                       htmlFor="email"
                       className="block text-sm font-medium text-gray-700"
@@ -102,7 +102,7 @@ const Login = () => {
                       type="email"
                       name="email"
                       id="email"
-                      className={`mt-1 p-2 text-black block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 ${
+                      className={` mt-1 p-2 text-black block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 ${
                         errors.email && touched.email ? "border-red-500" : ""
                       }`}
                       placeholder="Enter your email"
@@ -114,7 +114,7 @@ const Login = () => {
                     />
                   </div>
 
-                  <div className="w-full max-w-md">
+                  <div className="w-full ">
                     <label
                       htmlFor="password"
                       className="block text-sm font-medium text-gray-700"
@@ -139,7 +139,7 @@ const Login = () => {
                     />
                   </div>
 
-                  <div className="w-full max-w-md">
+                  <div className="w-full ">
                     <button
                       type="submit"
                       disabled={isSubmitting}
@@ -149,7 +149,7 @@ const Login = () => {
                     </button>
                   </div>
 
-                  <div className="w-full max-w-md text-right">
+                  <div className="w-full  text-right">
                     <Link
                       href="/forgot-password"
                       className="text-sm text-green-600 hover:text-green-500"

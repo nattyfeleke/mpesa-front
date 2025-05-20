@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Trae
 
-## Getting Started
+26 context(s) used
+MPesa Acquisition Portal - README
+This README provides an overview of the MPesa Acquisition Portal project, including screenshots of key features and functionality.
 
-First, run the development server:
+Project Overview
+The MPesa Acquisition Portal is a web application that provides an efficient way to access and manage MPesa accounts. The application is built using Next.js, React, and includes authentication via NextAuth.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Screenshots
+Login Page
+The login page provides secure access to the portal with email and password authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The login page features the MPesa and Safaricom logos, along with a clean form for user authentication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dashboard
+After successful login, users are redirected to the dashboard.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The dashboard provides an overview of key metrics and quick access to important features.
 
-## Learn More
+Transaction History
+Users can view their transaction history with detailed information.
 
-To learn more about Next.js, take a look at the following resources:
+The transaction history page displays a list of all transactions with filtering options.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+User Profile
+Users can manage their profile information and settings.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The profile page allows users to update their personal information and preferences.
 
-## Deploy on Vercel
+Key Features
+Secure authentication with NextAuth.js
+Responsive design for mobile and desktop
+Real-time transaction updates
+User role management
+API integration capabilities
+Getting Started
+To run this project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash
+Run
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Install dependenciesnpm install# Run the development servernpm run dev
+
+Open http://localhost:3000 with your browser to see the result.
+
+Technologies Used
+Next.js 15.3.2
+React 19.0.0
+NextAuth.js 4.24.11
+TanStack React Query
+Formik & Yup for form validation
+Tailwind CSS for styling
+Project Structure
+The project follows a feature-based structure:
+
+/src/app - Next.js App Router pages
+/src/feature - Feature-based components
+/src/lib - Utility functions and hooks
+/src/provider - Context providers
+/src/validation - Form validation schemas
+Contributing
+Please read the contribution guidelines before submitting pull requests.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+nattyfeleke
+Copy
+Delete
+send me the code i shoud put on the readme.md
+Trae
+Used 1 context
+README.md
+8-8
+MPesa Acquisition Portal
+This project provides an efficient way to access and manage your MPesa account through a modern web interface.
+
+Screenshots
+Login Page
+The login page with MPesa and Safaricom branding
+
+Dashboard
+Overview of account information and quick actions
+
+Transaction History
+Detailed view of past transactions with filtering options
+
+Features
+Secure authentication with NextAuth.js
+Responsive design for all devices
+Real-time transaction updates
+User profile management
+Role-based access control
+Getting Started
+bash
+Run
+
+# Install dependenciesnpm install# Run the development servernpm run dev
+
+Open http://localhost:3000 with your browser to see the result.
+
+Technologies Used
+Next.js
+React
+NextAuth.js
+TanStack React Query
+Formik & Yup
+Tailwind CSS
+Project Structure
+/src/app - Next.js App Router pages
+/src/feature - Feature components
+/src/lib - Utilities and hooks
+/src/provider - Context providers
+/src/validation - Form validation schemas
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
