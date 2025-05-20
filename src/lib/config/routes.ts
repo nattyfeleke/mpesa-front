@@ -1,0 +1,43 @@
+export const routes = {
+  signIn: "/auth/signin",
+  signOut: "/auth/signout",
+  error: "/auth/error",
+  forgotPassword: "/auth/forgot-password",
+  dashboard: "/dashboard",
+  transaction: "/transaction",
+  transactions: {
+    detail: (id: string) => `/transaction/detail/${id}`,
+  },
+  report: "/reports",
+  bills: "/bills",
+  EMoney: "/e-money",
+  payout: "/payout",
+  financialInstitutions: {
+    list: "/financial-institutions",
+    create: "/financial-institutions/create",
+    detail: (id: string) => `/financial-institutions/detail/${id}`,
+  },
+  merchants: "/merchants",
+  merchant: {
+    detail: (id: string) => `/merchants/detail/${id}`,
+    create: "/merchants/create",
+    edit: (id: string) => `/merchants/edit/${id}`,
+  },
+  bankAccounts: "/bank-accounts",
+  bankAccount: {
+    detail: (id: string) => `/bank-accounts/detail/${id}`,
+    create: "/bank-accounts/create",
+    edit: (id: string) => `/bank-accounts/edit/${id}`,
+  },
+  customers: "/customers",
+  disputeRefundHandling: "/dispute-refund-handling",
+  userRoleManagement: "/user-role-management",
+  userRoleManagements: {
+    detail: (id: string) => `/user-role-management/detail/${id}`,
+  },
+  apiIntegration: "/api-integration",
+  auditLog: "/audit-log",
+  eodlist: "/eod",
+  incoming: "/incoming",
+  starLoyalty: "/star-loyalty",
+};
